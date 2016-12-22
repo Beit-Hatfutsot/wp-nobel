@@ -83,6 +83,14 @@ endif;
 		  <source src="<?php the_field('short_movie'); ?>" type="video/3gpp">
 		  Your browser does not support HTML5 video.
 		</video>
+		<?php else: ?>
+		<?php 
+			$img = ''; 
+			$img = get_field('persona_img'); 
+			if($img):
+				echo '<div class="single-person-box"><img src="'.$img.'"></div>';
+			endif;
+		?>
 		<?php endif; ?>
 		<div class="content-pessona-single">
 			<?php the_content(); ?>

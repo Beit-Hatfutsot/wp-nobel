@@ -1672,6 +1672,15 @@ iframe.contactus-iframe {
 .homebox:nth-child(12) {
 	background-image: url(img/box4.png);
 }
+.single-person-box {
+	width: 267px;
+	height: 267px;
+	margin: 20px auto 0px;
+    background-color: rgba(71,195,211,0.5);
+}
+.single-person-box img {
+	width: 100%;
+}
 @media (min-width: 768px){
 	.navbar-collapse.collapse {
 		padding: 0px;

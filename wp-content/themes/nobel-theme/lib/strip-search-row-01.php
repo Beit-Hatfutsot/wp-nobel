@@ -78,7 +78,14 @@
 							$count_slide++;
 						}	
 						?>
-						<div class="col-xs-4 single-result-box" data-slidepopup="<?php echo $count_results; ?>" data-gender="<?php the_field('gender'); ?>" data-persona_img="<?php the_field('persona_img'); ?>"  data-short_movie_mp4="<?php the_field('short_movie_mp4'); ?>" data-born_date="<?php the_field('born_date'); ?>" data-deceased="<?php the_field('deceased'); ?>" data-wining_year="<?php the_field('wining_year'); ?>" 
+						<div class="col-xs-4 single-result-box" 
+						data-slidepopup="<?php echo $count_results; ?>" 
+						data-gender="<?php the_field('gender'); ?>" 
+						data-persona_img="<?php the_field('persona_img'); ?>"  
+						data-short_movie_mp4="<?php the_field('short_movie_mp4'); ?>" 
+						data-born_date="<?php the_field('born_date'); ?>" 
+						data-deceased="<?php the_field('deceased'); ?>" 
+						data-wining_year="<?php the_field('wining_year'); ?>" 
 						data-winning_category_name="<?php echo $winning_category_name; ?>" 
 						data-winning_category_slug="<?php echo $winning_category_slug; ?>" 
 						data-winning_country_name='<?php echo $winning_country_name; ?>' 
@@ -191,6 +198,7 @@
 							</div>
 							<h2 class="video-title" data-pretextwonyear="<?php the_field('pre_text_won_year','option'); ?>" data-pretextwonyearwoman="<?php the_field('pre_text_won_year_wom','option'); ?>"></h2>	
 							<div class="video-pessona-wrap"></div>
+							<div class="single-person-box"></div>
 							<div class="content-pessona"></div>
 						</div>
 						</div>

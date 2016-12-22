@@ -180,7 +180,7 @@ $(function(){
 			pretextwonyear_text = pretextwonyearwoman;
 		}
 			
-		
+		$('#strip-3-slider').find('.single-person-box').hide();
 		$('#strip-3-slider').find('.title-span').html(title);
 		
 		if(winning_country_slug != ''){
@@ -211,6 +211,8 @@ $(function(){
 			if(short_movie_mp4 == ''){
 				$('#strip-3-slider').find('.video-pessona-wrap').hide();
 				$('#strip-3-slider').find('.content-pessona').css('height','auto');
+				$('#strip-3-slider').find('.single-person-box').show();
+				$('#strip-3-slider').find('.single-person-box').html('<img src="'+persona_img+'">');
 			}else{
 				$('#strip-3-slider').find('.video-pessona-wrap').show();
 				$('#strip-3-slider').find('.content-pessona').css('height','200px');
@@ -219,6 +221,8 @@ $(function(){
 		}else{
 			$('#strip-3-slider').find('.video-pessona-wrap').hide();
 			$('#strip-3-slider').find('.content-pessona').css('height','auto');
+			$('#strip-3-slider').find('.single-person-box').show();
+			$('#strip-3-slider').find('.single-person-box').html('<img src="'+persona_img+'">');
 		}
 	
 		$('#strip-3-slider').find('.content-pessona').html(content);

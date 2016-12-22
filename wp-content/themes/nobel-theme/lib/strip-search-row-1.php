@@ -160,6 +160,7 @@
 							</div>
 							<h2 class="video-title" data-pretextwonyear="<?php the_field('pre_text_won_year','option'); ?>" data-pretextwonyearwoman="<?php the_field('pre_text_won_year_wom','option'); ?>"></h2>	
 							<div class="video-pessona-wrap"></div>
+							<div class="single-person-box"></div>
 							<div class="content-pessona"></div>
 						</div>
 						</div>
