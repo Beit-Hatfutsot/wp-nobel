@@ -4,7 +4,7 @@ Theme URI: http://nobel.co.il/
 Author: Yaniv Sason
 Author URI: http://yanivsasson.co.il/
 Description: A versatile and responsive Bootstrap WordPress starter theme FOR DEVELOPERS based on Twitter Bootstrap 3.3.6.
-Version: 1
+Version: 2
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl.html
 Tags: one-column, two-columns, right-sidebar, fluid-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, rtl-language-support, theme-options, translation-ready
@@ -1272,8 +1272,8 @@ h3.about-title {
 .persona-category {
 	display: inline-block;
 	float: left;
-	padding-right: 20px;	
-	padding-left: 20px;
+	padding-right: 14px;	
+	padding-left: 14px;
 }
 .persona-category a {
 	margin-right: 6px;

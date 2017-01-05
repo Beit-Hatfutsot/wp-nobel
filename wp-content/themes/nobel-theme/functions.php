@@ -44,6 +44,7 @@
         //wp_enqueue_script('theme-jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js',array( 'jquery' ),$version,true );
         wp_enqueue_script('theme-jquery', 'https://code.jquery.com/jquery-1.10.2.js"',array( 'jquery' ),$version,true );
         wp_enqueue_script('theme-jquery-ui', 'https://code.jquery.com/ui/1.10.4/jquery-ui.js',array( 'jquery' ),$version,true );
+        wp_enqueue_script('theme-jquery-ui-mobile', '//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js',array( 'jquery' ),$version,true );
 		//if ( is_page_template( 'template-home.php' ) ) {       
 			wp_enqueue_script('google-map-api', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyABIv1NFOQ6wwuLuJHNk8bBzSxKN9tZof0&language=he',array( 'jquery' ),$version,true );
        // }

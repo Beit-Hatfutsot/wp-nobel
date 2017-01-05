@@ -1,5 +1,5 @@
 $(function(){
-	//console.log('load row0.js');
+	console.log('load row0.js');
 	
 	//slide number
 	count_0 = 0;
