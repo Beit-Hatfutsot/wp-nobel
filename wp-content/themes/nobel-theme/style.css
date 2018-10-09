@@ -17,7 +17,7 @@ nobel-theme is distributed under the terms of the GNU GPL v3.
 
 @charset "UTF-8";
 /*@import 'https://fonts.googleapis.com/css?family=Assistant:300,400,600,700&subset=hebrew';*/
-@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
 
 iframe[name="google_conversion_frame"] {
 	position: fixed;

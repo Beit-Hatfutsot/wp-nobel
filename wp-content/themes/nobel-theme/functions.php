@@ -7,7 +7,7 @@
     $themename = "nobel-theme";
     $developer_uri = "http://nobel.coil";
     $shortname = "cw";
-    $version = '1';
+    $version = '2';
     load_theme_textdomain( 'nobel-theme', get_template_directory() . '/languages' );
 
 ////////////////////////////////////////////////////////////////////
@@ -589,15 +589,5 @@ function change_content($post_id) {
 	}
 }
 
-//
-// Google Tag Manager - google site verification meta tag
-//
-
-add_action('wp_head', 'gtm_google_site_verification');
-function gtm_google_site_verification() {
-	if ( is_home() || is_front_page() ) {
-		echo '<meta name="google-site-verification" content="hAGcyZg5qbnZLTiBNYxH6h0SRIRP0f0i8p5C1EPjyzk" />';
-	}
-}
 
 ?>

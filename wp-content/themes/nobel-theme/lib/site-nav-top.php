@@ -89,7 +89,7 @@
 					
 					<div class="result-container">
 						<div class="loader hide">
-							<img src="http://www.bh.org.il/wp-content/themes/bh/images/general/ajax-loader.gif" width="16" height="16">
+							<img src="https://www.bh.org.il/wp-content/themes/bh/images/general/ajax-loader.gif" width="16" height="16">
 						</div>
 						<div class="result">
 							<div class="msg msg-999 hide"><?php the_field('newsletter_error_999','option');?></div>
