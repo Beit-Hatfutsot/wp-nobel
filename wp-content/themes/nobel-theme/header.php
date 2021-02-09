@@ -8,5 +8,20 @@
 	<title><?php wp_title( '|', true, 'right' ); ?></title>	
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
     <?php wp_head(); ?>
+
+	<?php
+		/**
+		 * gtm head
+		 */
+		gtm_head();
+	?>
+
 </head>
 <body <?php body_class(); ?>>
+
+	<?php
+		/**
+		 * gtm body
+		 */
+		gtm_body();
+	?>
