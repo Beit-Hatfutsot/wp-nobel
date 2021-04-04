@@ -208,6 +208,8 @@ body > nav.container {
 }
 .header-logo-sec {
 	float: right;
+	padding-top: 20px;
+	max-width: 200px;
 }
 /*
 	header menu

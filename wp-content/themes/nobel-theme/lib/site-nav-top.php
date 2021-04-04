@@ -25,8 +25,8 @@
 		</div>
 		<div class="col-sm-3 col-xs-5 header-logo header-logo-sec" >
 			<a href="<?php the_field('header_logo_link','option'); ?>" target="_blank">
-				<div class="table">
-					<div class="table-cell table-cellicon"><?php 
+				<div>
+					<div><?php
 							$img = '';
 							$img = get_field('header_logo_sec','option'); 
 							if($img):
@@ -34,8 +34,8 @@
 							else:
 								echo '';
 							endif;
-						?></div>
-					<div class="table-cell"><?php the_field('header_logo_text_sec','option'); ?></div>
+					?></div>
+					<?php /*<div class="table-cell"><?php the_field('header_logo_text_sec','option'); ?></div>*/ ?>
 				</div>
 			</a>
 		</div>

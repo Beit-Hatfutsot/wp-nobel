@@ -1,5 +1,14 @@
 <?php
 
+// config
+require_once( 'functions/config.php' );
+
+// scripts and styles
+require_once( 'functions/scripts-n-styles.php' );
+
+// login
+require_once( 'functions/login.php' );
+
 // gtm
 require_once( 'functions/gtm.php' );
 
